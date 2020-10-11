@@ -1,12 +1,12 @@
 .root {
-  --arrow: #8c00ff
+  --arrow: #8c00ff;
 }
 
 #topButton {
-  visibility:hidden;
+  visibility: hidden;
   position: fixed;
-  bottom: 120px;
-  right: 30px;
+  bottom: 90px;
+  right: 18px;
   z-index: 99;
   outline: none;
   background-color: black;
@@ -22,6 +22,5 @@
 }
 
 i {
-  color: var(--arrow)
+  color: var(--arrow);
 }
-

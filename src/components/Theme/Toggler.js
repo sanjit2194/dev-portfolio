@@ -17,7 +17,7 @@ const Button = styled.button`
   text-align: center;
   position: fixed;
   cursor: pointer;
-  right: 30px;
+  right: 18px;
   bottom: 30px;
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
