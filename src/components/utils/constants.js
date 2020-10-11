@@ -6,7 +6,7 @@ const greeting = {
   username: "Sanjit Kumar",
   titlePre: "Hey, I'm ",
   // title: "Hey, I'm Sanjit",
-  titleArray: ["Sanjit ", "a UI Developer ", "a UI Designer "],
+  titleArray: ["Sanjit", "a UI Developer", "a UI Designer"],
   emojiArray: ["🖐", "👾", "🎨"],
   subTitle: emoji(
     "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript | Reactjs | Nodejs."
