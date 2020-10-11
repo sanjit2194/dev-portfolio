@@ -15,7 +15,7 @@ const greeting = {
     "And I'm looking to leverage my skills to produce seamless & profitable UI 💰."
   ),
   resumeLink:
-    "https://drive.google.com/drive/u/0/folders/1f2iUJbvPwDKXcgNb3i6ni5t7wWY6pIUO",
+    "https://drive.google.com/file/d/1pfEbIkUhs24ZbmpVkX8_tmLQP-bytqrN/view?usp=sharing",
 };
 
 const navbarTitles = {
