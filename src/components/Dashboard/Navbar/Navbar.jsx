@@ -8,12 +8,12 @@ export default function Navbar({ isDark }) {
   (() => {
     if (isDark) {
       document.documentElement.style.setProperty("--font-color", "#8c00ff");
-      document.documentElement.style.setProperty("--bg-color", "black");
+      document.documentElement.style.setProperty("--back-color", "black");
       document.documentElement.style.setProperty("--header-color", "white");
       return;
     }
     document.documentElement.style.setProperty("--font-color", "#55198b");
-    document.documentElement.style.setProperty("--bg-color", "white");
+    document.documentElement.style.setProperty("--back-color", "white");
     document.documentElement.style.setProperty("--header-color", "black");
     return;
   })();

@@ -2,14 +2,14 @@
 
 :root {
   --font-color: #55198b;
-  /* --bg-color: white; */
+  --back-color: white;
   --header-color: black;
   /* light:55198b dark:8c00ff */
 }
 
 .header {
   transition: all 0.25s linear;
-  /* background-color: var(--bg-color); */
+  background-color: var(--back-color);
   max-width: 100%;
   padding: 0 25px;
   margin: 0px auto;
