@@ -31,7 +31,14 @@ export default function GithubProfileCard({ isDark }) {
             </h2>
             <div className="location-div">
               <span className="desc-prof">
-                <span>{emoji("📍")} Noida, India</span>
+                <span>{emoji("📍")}{contactInfo.location}</span>
+              </span>
+            </div>
+            <div className="location-div">
+              <span className="desc-prof">
+                <a style={{
+                  textDecoration: 'none'
+                }} href="tel:+918249179433">{emoji("☎️")}{contactInfo.number}</a>
               </span>
             </div>
             <div className="opp-div">

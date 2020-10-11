@@ -171,7 +171,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Wanna discuss a project or maybe just want to say hi, my Inbox is open for all.",
-  number: "+91-8249179433",
+  number: " +91-8249179433",
+  location: " Noida, India",
   email_address: "kumar.sanjit211994@gmail.com",
 };
 
