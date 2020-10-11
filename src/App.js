@@ -9,7 +9,6 @@ import "./App.css";
 import { Provider } from "./components/utils/constants";
 import { GlobalStyles } from "./components/Theme/GlobalStyles";
 import Dashboard from "./components/Dashboard/Dashboard";
-import Top from "./components/Topbutton/Top";
 import Skills from "./components/Skills/Skills";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import StackProgress from "./components/SkillProgress/SkillProgress";
@@ -41,7 +40,6 @@ function App() {
           <GithubProfileCard isDark={theme !== "light" ? true : false} />
           <Footer />
 
-          <Top isDark={theme !== "light" ? true : false} />
           <Toggle theme={theme} toggleTheme={themeToggler} />
         </ThemeProvider>
       </div>
