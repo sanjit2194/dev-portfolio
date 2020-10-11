@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.70cc2136.chunk.css",
+    "main.css": "/dev-portfolio/static/css/main.d0608684.chunk.css",
     "main.js": "/dev-portfolio/static/js/main.c7a714ee.chunk.js",
     "main.js.map": "/dev-portfolio/static/js/main.c7a714ee.chunk.js.map",
     "runtime-main.js": "/dev-portfolio/static/js/runtime-main.63f67cfb.js",
@@ -8,9 +8,9 @@
     "static/js/2.17cfa5fb.chunk.js": "/dev-portfolio/static/js/2.17cfa5fb.chunk.js",
     "static/js/2.17cfa5fb.chunk.js.map": "/dev-portfolio/static/js/2.17cfa5fb.chunk.js.map",
     "index.html": "/dev-portfolio/index.html",
-    "precache-manifest.03bf91658e366ea4204dbc9378b42aab.js": "/dev-portfolio/precache-manifest.03bf91658e366ea4204dbc9378b42aab.js",
+    "precache-manifest.794b55d1c8f38a34da709ed13f348afb.js": "/dev-portfolio/precache-manifest.794b55d1c8f38a34da709ed13f348afb.js",
     "service-worker.js": "/dev-portfolio/service-worker.js",
-    "static/css/main.70cc2136.chunk.css.map": "/dev-portfolio/static/css/main.70cc2136.chunk.css.map",
+    "static/css/main.d0608684.chunk.css.map": "/dev-portfolio/static/css/main.d0608684.chunk.css.map",
     "static/js/2.17cfa5fb.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.17cfa5fb.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dev-portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/dav.svg": "/dev-portfolio/static/media/dav.6db90342.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.63f67cfb.js",
     "static/js/2.17cfa5fb.chunk.js",
-    "static/css/main.70cc2136.chunk.css",
+    "static/css/main.d0608684.chunk.css",
     "static/js/main.c7a714ee.chunk.js"
   ]
 }
