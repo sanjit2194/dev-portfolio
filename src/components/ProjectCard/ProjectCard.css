@@ -2,12 +2,12 @@
   --color: black;
 }
 
-.project-card {
+.education-card {
   display: flex;
   flex-direction: row;
 }
 
-.project-card:hover + .project-card-border {
+.education-card:hover + .education-card-border {
   border-color: #a9a7f9;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
@@ -16,7 +16,7 @@
   transition: width 0.6s ease-in-out;
 }
 
-.project-card-border {
+.education-card-border {
   height: 30px;
   width: 80%;
   border-top: 2px solid rgba(211, 211, 211, 0.397);
@@ -27,34 +27,35 @@
   transition: width 0.6s ease-in-out;
 }
 
-.project-head {
+.education-head {
   display: flex;
   flex-direction: row;
 }
 
-.project-text-school {
+.education-text-school {
   margin: 0;
   font-size: 28px;
-  /* font-weight: 700; */
+  font-weight: 700;
   text-overflow: ellipsis;
   /* overflow: hidden; */
+  white-space: nowrap;
 }
 
 .project-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 12rem;
+  height: 12rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 50%;
 }
 
-.project-card-right {
+.education-card-right {
   max-width: 70%;
   padding: 1rem 0rem 2rem 0rem;
 }
 
-.project-text-subHeader {
+.education-text-subHeader {
   /* color: var(--color); */
   font-weight: 700;
   font-size: 19px;
@@ -63,43 +64,43 @@
   line-height: normal;
 }
 
-.project-text-duration {
+.education-text-duration {
   /* color: var(--color); */
   font-size: 19px;
   margin: 0px;
   padding-top: 0.5rem;
 }
 
-.project-text-desc {
+.education-text-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.project-text-bullets > ul {
+.education-text-bullets > ul {
   margin-top: 0.5rem;
 }
 
 /* Media Query */
 
 @media (max-width: 1380px) {
-  .project-card {
+  .education-card {
     flex-direction: column;
     padding-bottom: 10px;
   }
-  .project-card-right {
+  .education-card-right {
     max-width: 90%;
   }
-  .project-card-border {
+  .education-card-border {
     width: 90%;
   }
-  .project-text-subHeader {
+  .education-text-subHeader {
     padding-top: 0.5rem;
     font-size: 16px;
   }
-  .project-text-school {
+  .education-text-school {
     font-size: 20px;
   }
-  .project-text-duration {
+  .education-text-duration {
     font-size: 16px;
   }
   .project-roundedimg {
@@ -111,13 +112,13 @@
 }
 
 @media (max-width: 768px) {
-  .project-card {
+  .education-card {
     text-align: center;
   }
-  .project-card-right {
+  .education-card-right {
     max-width: 100%;
   }
-  .project-card-border {
+  .education-card-border {
     width: 100%;
   }
   .project-roundedimg {
@@ -127,7 +128,7 @@
     margin-bottom: 1rem;
     margin-right: 0;
   }
-  .project-text-bullets > ul {
+  .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
   }

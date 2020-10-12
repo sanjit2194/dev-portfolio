@@ -1,7 +1,7 @@
 import React from "react";
-import "./Project.css";
-import { projectInfo } from "../utils/constants";
+// import "./Project.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import { projectInfo } from "../utils/constants";
 
 export default function Education({ isDark }) {
   (() => {
@@ -15,8 +15,8 @@ export default function Education({ isDark }) {
 
   return (
     <div className="main">
-      <div className="education-section" id="projects">
-        <h1 className="education-heading">Projects</h1>
+      <div className="education-section" id="education">
+        <h1 className="education-heading">Project (Major)</h1>
         <div className="education-card-container">
           {projectInfo.map((project) => (
             <ProjectCard project={project} />

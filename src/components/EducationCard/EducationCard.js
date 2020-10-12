@@ -20,15 +20,9 @@ export default function EducationCard({ school }) {
           </div>
           <div className="education-card-right">
             <h5 className="education-text-school">{school.schoolName}</h5>
-
             <div className="education-text-details">
               <h5 className="education-text-subHeader">{school.subHeader}</h5>
               <p className="education-text-duration">{school.duration}</p>
-              {/* <div className="education-text-bullets">
-                <ul>
-                  <GetDescBullets descBullets={school.descBullets} />
-                </ul>
-              </div> */}
             </div>
           </div>
         </div>

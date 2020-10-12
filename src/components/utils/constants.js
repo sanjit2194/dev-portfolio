@@ -52,6 +52,8 @@ const workExperiences = {
 
 const projectInfo = [
   {
+    company: "TELUS International",
+    logo: require("../../assets/images/telus.jpg"),
     role: " Application Developer",
     project: emoji(" My TELUS App 🌐"),
     desc:
@@ -59,6 +61,8 @@ const projectInfo = [
     tech: ["ReactJS, node.js, JavaScript, Python"],
   },
   {
+    company: "Idemia",
+    logo: require("../../assets/images/idemia.jpeg"),
     role: " Application Developer & Designer",
     project: emoji(" Analyse Tool 📡"),
     desc:
