@@ -69,7 +69,7 @@
 }
 
 .wave-emoji-motion {
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: wave;
   display: inline-block;
