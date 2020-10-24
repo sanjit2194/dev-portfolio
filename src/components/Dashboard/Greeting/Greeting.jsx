@@ -6,7 +6,7 @@ import { greeting } from "../../utils/constants";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 
-const Greeting = () => {
+const Greeting = ({ isDark }) => {
   var isCursor = false;
   const [cursor, setCursor] = useState({});
   const [title, setTitle] = useState("");
@@ -29,7 +29,7 @@ const Greeting = () => {
       setTitleEmoji(greeting.emojiArray[localTitleArrayIndex]);
       setTimeout(erase, newTextDelay);
     }
-  }
+  };
 
   const erase = () => {
     if (charIndex >= 0) {
@@ -46,7 +46,7 @@ const Greeting = () => {
       }
       setTimeout(type, newTextDelay);
     }
-  }
+  };
 
   useEffect(() => {
     setInterval(() => {
@@ -73,17 +73,28 @@ const Greeting = () => {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">
-                {" "}
-                {greeting.titlePre + title}
-                <span
-                  className={
-                    titleArrayIndex === 0 ? "wave-emoji-motion" : "wave-emoji"
-                  }
-                >
-                  {emoji(titleEmoji)}
-                </span>
-                <span style={cursor}>|</span>
+                {greeting.titleMain}
+                <span className="wave-emoji-motion">{greeting.titleEmoji}</span>
               </h1>
+              <h2 className="greeting-sub-text">
+                {greeting.titlePre}
+                <span
+                  style={{
+                    color: isDark ? "#8c00ff" : "#55198b",
+                  }}
+                >
+                  {title}
+                </span>
+                <span className="wave-emoji">{emoji(titleEmoji)}</span>
+                <span
+                  style={{
+                    ...cursor,
+                    color: isDark ? "#8c00ff" : "#55198b",
+                  }}
+                >
+                  |
+                </span>
+              </h2>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <p className="greeting-text-p subTitle">{greeting.subText}</p>
               <SocialMedia />

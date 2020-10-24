@@ -50,8 +50,12 @@
 
 .greeting-text {
   font-size: 60px;
+}
+
+.greeting-sub-text {
+  font-size: 40px;
   line-height: 1.1;
-  /* color: var(--color); */
+  margin: 0 0 0 0;
 }
 
 .greeting-text-p {
@@ -104,6 +108,11 @@
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+    line-height: 0.5;
+  }
+  .greeting-sub-text {
+    font-size: 30px;
+    line-height: 1.1;
   }
   .greeting-text-p {
     font-size: 20px;
@@ -123,6 +132,10 @@
   }
   .greeting-text {
     font-size: 30px;
+    text-align: center;
+  }
+  .greeting-sub-text {
+    font-size: 20px;
     text-align: center;
   }
   .greeting-text-p {
