@@ -11,7 +11,6 @@ const Greeting = ({ isDark }) => {
   const [cursor, setCursor] = useState({});
   const [title, setTitle] = useState("");
   const [titleEmoji, setTitleEmoji] = useState("");
-  const [titleArrayIndex, setTitleArrayIndex] = useState(0);
 
   const typingDelay = 100;
   const erasingDelay = 100;
