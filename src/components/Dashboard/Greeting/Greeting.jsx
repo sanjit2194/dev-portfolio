@@ -96,11 +96,12 @@ const Greeting = ({ isDark }) => {
               <p className="greeting-text-p subTitle">{greeting.subText}</p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contact me" href="#contact" isDark={isDark} />
                 <Button
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
+                  isDark={isDark}
                 />
               </div>
             </div>
