@@ -11,7 +11,6 @@ const Greeting = ({ isDark }) => {
   const [cursor, setCursor] = useState({});
   const [title, setTitle] = useState("");
   const [titleEmoji, setTitleEmoji] = useState("");
-  const [titleArrayIndex, setTitleArrayIndex] = useState(0);
 
   const typingDelay = 100;
   const erasingDelay = 100;
@@ -39,10 +38,8 @@ const Greeting = ({ isDark }) => {
       setTimeout(erase, erasingDelay);
     } else {
       localTitleArrayIndex++;
-      setTitleArrayIndex((prevState) => prevState + 1);
       if (localTitleArrayIndex >= greeting.titleArray.length) {
         localTitleArrayIndex = 0;
-        setTitleArrayIndex(0);
       }
       setTimeout(type, newTextDelay);
     }
