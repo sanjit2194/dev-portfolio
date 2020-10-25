@@ -15,7 +15,7 @@ export default function Education({ isDark }) {
 
   return (
     <div className="main">
-      <div className="education-section" id="education">
+      <div className="education-section" id="projects">
         <h1 className="education-heading">Project (Major)</h1>
         <div className="education-card-container">
           {projectInfo.map((project) => (

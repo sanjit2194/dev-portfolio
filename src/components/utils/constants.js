@@ -45,7 +45,7 @@ const workExperiences = {
       companylogo: require("../../assets/images/idemia.jpeg"),
       date: "June 2017 – Feb 2020",
       desc:
-        "As a Software Engg I was trained on developing websites using different tech stack and managing teams and projects.",
+        "As a Software Engineer I was trained on developing websites using different tech stack and managing teams and projects.",
       descBullets: ["C# & .Net framework", "ReactJS, node.js, JavaScript"],
     },
   ],
@@ -59,16 +59,16 @@ const projectInfo = [
     project: emoji(" My TELUS App 🌐"),
     desc:
       " A web app, designed and developed to manage your TV account plans, pay your bills, check your mobile/wifi data and a lot more.",
-    tech: ["ReactJS, node.js, JavaScript, Python"],
+    tech: [" ReactJS, node.js, JavaScript, Python"],
   },
   {
     company: "Idemia",
     logo: require("../../assets/images/idemia.jpeg"),
-    role: " Application Developer & Designer",
+    role: " Software Engineer",
     project: emoji(" Analyse Tool 📡"),
     desc:
       " A web app which is used to identify the traffic rule violation from the data coming from Radar",
-    tech: ["ReactJS, JavaScript"],
+    tech: [" ReactJS, JavaScript"],
   },
 ];
 
