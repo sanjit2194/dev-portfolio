@@ -95,7 +95,7 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Collaborate with team members to create applications’ system analysis based on clients’ requirements."
-    )
+    ),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
