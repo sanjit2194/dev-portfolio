@@ -89,14 +89,13 @@ const skillsSection = {
     emoji(
       "⚡ Develop interactive Front End / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal stacks"),
+    emoji("⚡ Web Applications ( WAs ) in normal stacks"),
     emoji(
       "⚡ Modify existing software to correct errors, adapt to new hardware and improve performance."
     ),
     emoji(
       "⚡ Collaborate with team members to create applications’ system analysis based on clients’ requirements."
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal stacks"),
+    )
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
