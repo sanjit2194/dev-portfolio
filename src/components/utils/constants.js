@@ -31,12 +31,19 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Analyst",
+      company: "Accenture",
+      companylogo: require("../../assets/images/accenture.jpg"),
+      date: "Sept 2021 - Present",
+      desc: "Developing and maintaining new and old features for the client using ReactJS, JavaScript, HTML/CSS and necessary other technologies.",
+      descBullets: ["ReactJS, JavaScript, HTML5/CSS3"],
+    },
+    {
       role: "Application Developer",
       company: "TELUS International",
       companylogo: require("../../assets/images/telus.jpg"),
-      date: "Feb 2020 – Present",
-      desc:
-        "Design and develop user-friendly website using ReactJS, JavaScript, HTML/CSS and other technologies",
+      date: "Feb 2020 – Sept 2021",
+      desc: "Design and develop user-friendly website using ReactJS, JavaScript, HTML/CSS and other technologies.",
       descBullets: ["ReactJS, node.js, JavaScript"],
     },
     {
@@ -44,8 +51,7 @@ const workExperiences = {
       company: "Idemia",
       companylogo: require("../../assets/images/idemia.jpeg"),
       date: "June 2017 – Feb 2020",
-      desc:
-        "As a Software Engineer I was trained on developing websites using different tech stack and managing teams and projects.",
+      desc: "As a Software Engineer I was trained on developing websites using different tech stack and managing teams and projects.",
       descBullets: ["C# & .Net framework", "ReactJS, node.js, JavaScript"],
     },
   ],
@@ -53,22 +59,28 @@ const workExperiences = {
 
 const projectInfo = [
   {
+    company: "Accenture",
+    logo: require("../../assets/images/accenture.jpg"),
+    role: " Senior Analyst",
+    project: emoji(" UBER Eats (Client)"),
+    desc: " Developing and maintaining new and old features for the client using ReactJS, JavaScript, HTML/CSS and necessary other technologies.",
+    tech: [" ReactJS, node.js, JavaScript"],
+  },
+  {
     company: "TELUS International",
     logo: require("../../assets/images/telus.jpg"),
     role: " Application Developer",
     project: emoji(" My TELUS App 🌐"),
-    desc:
-      " A web app, designed and developed to manage your TV account plans, pay your bills, check your mobile/wifi data and a lot more.",
-    tech: [" ReactJS, node.js, JavaScript, Python"],
+    desc: " A web application, designed and developed to manage your TV account plans, pay your bills, check your mobile/wifi data and a lot more.",
+    tech: [" ReactJS, JavaScript"],
   },
   {
     company: "Idemia",
     logo: require("../../assets/images/idemia.jpeg"),
     role: " Software Engineer",
     project: emoji(" Analyse Tool 📡"),
-    desc:
-      " A web app which is used to identify the traffic rule violation from the data coming from Radar",
-    tech: [" ReactJS, JavaScript"],
+    desc: " A web application which is used to identify the traffic rule violation from the data coming from a Radar that are set on the roads.",
+    tech: [" ReactJS, JavaScript, node.js, Python3"],
   },
 ];
 
@@ -78,7 +90,6 @@ const socialMediaLinks = {
   gmail: "sanjit.kumar211994@gmail.com",
   facebook: "https://www.facebook.com/sanjit.kumar.7146/",
   instagram: "https://www.instagram.com/sanjit.94/",
-  // Instagram and Twitter are also supported in the links!
 };
 
 const skillsSection = {
@@ -176,13 +187,13 @@ const contactInfo = {
   subtitle:
     "Wanna discuss a project or maybe just want to say hi, my Inbox is open for all.",
   number: "+91-8249179433",
-  location: " Noida, India",
+  location: " Bengaluru, India",
   email_address: "kumar.sanjit211994@gmail.com",
 };
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "sanjit2194", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
 

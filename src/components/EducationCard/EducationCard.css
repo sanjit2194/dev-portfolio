@@ -5,6 +5,7 @@
 .education-card {
   display: flex;
   flex-direction: row;
+  /* margin-bottom: 10px; */
 }
 
 .education-card:hover + .education-card-border {
@@ -17,6 +18,7 @@
 }
 
 .education-card-border {
+  margin-bottom: 0 !important;
   height: 30px;
   width: 80%;
   border-top: 2px solid rgba(211, 211, 211, 0.397);
@@ -91,6 +93,7 @@
     max-width: 90%;
   }
   .education-card-border {
+    margin-bottom: 0;
     width: 90%;
   }
   .education-text-subHeader {

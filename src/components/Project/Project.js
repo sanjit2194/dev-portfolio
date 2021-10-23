@@ -3,7 +3,7 @@ import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import { projectInfo } from "../utils/constants";
 
-export default function Education({ isDark }) {
+export default function Project({ isDark }) {
   (() => {
     if (isDark) {
       document.documentElement.style.setProperty("--color", "white");
@@ -15,9 +15,9 @@ export default function Education({ isDark }) {
 
   return (
     <div className="main">
-      <div className="education-section" id="projects">
-        <h1 className="education-heading">Project (Major)</h1>
-        <div className="education-card-container">
+      <div className="project-section" id="projects">
+        <h1 className="project-heading">Project (Major)</h1>
+        <div className="project-card-container">
           {projectInfo.map((project) => (
             <ProjectCard project={project} />
           ))}
